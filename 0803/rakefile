@@ -1,0 +1,16 @@
+
+# task :up do 
+#   puts "123"
+# end
+
+# task :foo do
+#   puts "bar"
+# end
+
+# block_given?
+
+def my_select(list)
+
+end
+
+my_select([1, 2, 3, 4, 5]) {|i| i.odd? }
